@@ -18,9 +18,9 @@ public class Main {
 		div = p / q;
 		mod = p % q;
 		
-		System.out.println("\nSUM "+p+ "+"+q+"=" +sum);
-		System.out.println("DIFFERENCE "+p+ "-"+q+"=" +sub);
-		System.out.println("PRODUCT "+p+ "*"+q+"=" +mul);
+		System.out.println("\nAddition "+p+ "+"+q+"=" +sum);
+		System.out.println("subtraction "+p+ "-"+q+"=" +sub);
+		System.out.println("Multiplication "+p+ "*"+q+"=" +mul);
 		System.out.println("QUOTIENT "+p+ "/"+q+"=" +div);
 		System.out.println("MODULUS "+p+ "%"+q+"=" +mod);
 	}
@@ -32,8 +32,8 @@ Enter any two positive integer numbers:
 66
 89
 
-SUM 66+89=155
-DIFFERENCE 66-89=-23
-PRODUCT 66*89=5874
+Addition 66+89=155
+subtraction 66-89=-23
+Multiplication 66*89=5874
 QUOTIENT 66/89=0.0
 MODULUS 66%89=66
