@@ -1,5 +1,5 @@
 import java .util.Scanner;
-public class Area_perimeter
+public class areaperimeter
 {
      public static void main(string[] args)
      {
