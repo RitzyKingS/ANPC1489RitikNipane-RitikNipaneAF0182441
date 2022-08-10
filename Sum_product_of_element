@@ -1,0 +1,38 @@
+package src.java;
+
+import java.util.Arrays;
+
+public class Main{
+
+   public static void main(String args[]){
+
+       int arr[] = {2,8,8,8,9,1,3,3,2,3,1};
+
+       int sum = 0, product = 1;
+
+       for(int x: arr){
+
+           sum += x;
+
+           product *= x;
+
+       }
+
+       System.out.println("Given Array: " + Arrays.toString(arr));
+
+       System.out.println("Sum of elements: " + sum);
+
+       System.out.println("Product of elements: " + product);
+
+   }
+
+}
+
+
+
+
+output :
+
+Given Array: [2, 8, 8, 8, 9, 1, 3, 3, 2, 3, 1]
+Sum of elements: 48
+Product of elements: 497664

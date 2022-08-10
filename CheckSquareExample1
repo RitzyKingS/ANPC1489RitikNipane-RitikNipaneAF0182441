@@ -1,0 +1,26 @@
+package src;
+
+import java.util.Scanner;
+public class checksquareExample1 {
+
+	static boolean checkSquare(double number) {
+		double sqrt=Math.sqrt(number);
+		return((sqrt-Math.floor(sqrt)) ==0);
+	}
+	
+	public static void main(String[] args) {
+		System.out.print("Enter any number:");
+		Scanner sc=new Scanner(System.in);
+		double number=sc.nextDouble();
+		if(checkSquare(number))
+			System.out.print("Yes, the given number is square.");
+		else
+			System.out.print("No, the given number is not square.");
+	}
+
+}
+
+
+output:
+Enter any number:8100
+Yes, the given number is square.
