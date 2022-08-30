@@ -2,7 +2,7 @@ package Functions;
 import java.util.*;
 class Palidorm_No
 {
-    // palidorm function
+
     public static void palidorm()
     {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ class Palidorm_No
        n= sc.nextInt();
   
         temp=n;
-        // checking no is greater than zero or not
+
         while(n>0)
         {    
             r = n%10;  
@@ -27,10 +27,10 @@ class Palidorm_No
         System.out.println("Not palindrome : ");    
      }
     
-    // main method
+
     public static void main(String[] args)
     {
-        // palidorm function calling
+
         palidorm();
     }
 
