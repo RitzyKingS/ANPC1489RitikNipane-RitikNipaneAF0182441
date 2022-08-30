@@ -1,4 +1,5 @@
 //WAP to accept the no of  Students Name, roll no, marks of 5 subject , calculate Percentage and display the grade
+
 package Arrays;
 import java.util.Scanner;
 class Student_Details
@@ -21,7 +22,6 @@ class Student_Details
      char grade[] = new char[5];
      String name[]=new String[no];
 
-     // taking no of data student to be find
      System.out.print("Enter the " +no+" Student details here....\n");
      for(int i=0; i<no; i++)
      {
@@ -48,17 +48,14 @@ class Student_Details
          System.out.print("SST : ");
          sst[i] = sc.nextInt();
 
-         // total marks
          total[i] = hindi[i]+eng[i]+math[i]+sci[i]+sst[i];
 
          System.out.print("Total Marks : "+total[i]);
 
-         // percentage
          per[i] = total[i]/5.0;
 
          System.out.print("\nPercentage : "+per[i]);
 
-         // grade
          if(per[i]>90)
          {
              grade[i] = 'A';
@@ -84,7 +81,6 @@ class Student_Details
 
      }
 
-     // show total student data here
      System.out.println("\nFinal output of these student is......");
      for(int i=0; i<no; i++)
      {
@@ -94,10 +90,8 @@ class Student_Details
 
  }
 
- // main method
  public static void main(String[] args)
  {
-     // accept method calling
      accept();    
  }
 }
